@@ -27,7 +27,7 @@ class Send_Whole_Post extends Plugin {
 		 $rv = "<img src=\"plugins.local/send_whole_post/sendwholepost.png\"
 					class='tagsPic' style=\"cursor : pointer\"
 					onclick=\"emailWholeArticle(".$article_id.")\"
-					alt='share whole article' title='".__('Share whole post by email')."'>";
+					alt='share whole article' title='".__('Share whole post by email')."' />";
 					
 		return $rv;
 	}
